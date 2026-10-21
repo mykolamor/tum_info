@@ -138,11 +138,10 @@ class MainWindow(QMainWindow):
       self.password_entry.setEchoMode(QLineEdit.Normal if self.passshow_check.checkState() == Qt.Checked else QLineEdit.Password)
 
   def removedrag(self):
-    if 'drag_button' in dir(self):
+    if getattr(self, 'drag_button', None) != None:
       self.layout.removeWidget(self.drag_button)
-      drag_button = self.drag_button
+      self.drag_button.deleteLater()
       self.drag_button = None
-      del drag_button
   
   def download(self):
     try:
@@ -152,7 +151,7 @@ class MainWindow(QMainWindow):
       auth = None
       
       if self.advanced_check.checkState() == Qt.Checked:
-        auth = course_functions.AuthModel(self.username_entry.text(), self.password_entry.text())
+        auth = course_functions.AuthModel(self.password_entry.text(), self.username_entry.text())
       else:
         logger('Performing login...')
         auth = course_functions.perform_login(self.username_entry.text(), self.password_entry.text(), logger, verbose)
@@ -162,7 +161,7 @@ class MainWindow(QMainWindow):
       logger('Performing achievements lookup...')
       achievements = course_functions.perform_achievements(auth, logger, verbose)
       logger('Performing grade stats lookup...')
-      achievements = list(filter(lambda y: y != None, map(lambda x: course_functions.perform_exam(auth, x, logger, verbose), achievements)))
+      achievements = [y for x in achievements for y in course_functions.perform_exam(auth, x, logger, verbose)]
 
       drag_button = FileButton('Grades')
       drag_button.saveFile()
@@ -177,6 +176,7 @@ class MainWindow(QMainWindow):
       logger('Facebook: mykolamor')
       logger('Matrix: @mykolamor:matrix.org')
       logger('Mastodon: @mykolamor@mastodon.social')
+      logger('Website: https://mykolamor.com/#contact')
       self.info_label.setText('Drag grades into your favorite messanger')
 
       self.drag_button = drag_button

@@ -29,7 +29,7 @@ verbose = len(list(filter(lambda x: x.startswith('-v'),args))) > 0
 # - acquire a temporary session id and access token to load your data
 # - load a list of your achievements to extract statistics
 # - load each achievement to extract course properties
-# - load exam statistics for each exam to extract the grade distribution
+# - load exam statistics for each exam date to extract the grade distribution
 # - save exam statistics to disk
 # This script does not:
 # - send your login/password/session/token anywhere outside TUMOnline
@@ -51,11 +51,11 @@ auth = course_functions.perform_login(user_name, user_pass, logger, verbose)
 logger('Performing profile lookup...')
 auth = course_functions.perform_profile(auth, logger, verbose)
 logger('Performing achievements lookup...')
-achievements = list(filter(
-  lambda x: course_functions.achievement_exists(x, logger, verbose) == False,
-  course_functions.perform_achievements(auth, logger, verbose)))
+achievements = course_functions.perform_achievements(auth, logger, verbose)
 logger('Performing grade stats lookup...')
-achievements = list(filter(lambda y: y != None, map(lambda x: course_functions.perform_exam(auth, x, logger, verbose), achievements)))
+# Each achievement yields one entry per exam date (endterm, retake)
+achievements = [y for x in achievements for y in course_functions.perform_exam(auth, x, logger, verbose)]
+achievements = list(filter(lambda x: course_functions.achievement_exists(x, logger, verbose) == False, achievements))
 logger('Performing grade stats save...')
 achievements = list(map(lambda x: course_functions.achievement_save(x, logger, verbose), achievements))
 logger('Finished.')
