@@ -31,7 +31,7 @@ take care of the rest by adding a new page to the website and building it.
 
 #### All your courses program
 
-If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades.exe), [Linux](https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades), [MacOS](https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
+If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mykolamor/tum_info/releases/latest/download/Grades.exe), [Linux](https://github.com/mykolamor/tum_info/releases/latest/download/Grades), [MacOS](https://github.com/mykolamor/tum_info/releases/latest/download/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
 
 **For Linux users**: the app may not be executable initially when you download it. You can fix it by running `chmod +x <file_path>`. Alternatively, you can create this script `install_grades.sh`:
 
@@ -39,9 +39,7 @@ If you're looking for a simple way to send me your grades, you can contribute us
 bash
 #!/usr/bin/bash
 
-version="1.0.1"
-
-wget "https://github.com/mykolamor/tum_info/releases/download/$version/Grades"
+wget "https://github.com/mykolamor/tum_info/releases/latest/download/Grades"
 chmod +x ./Grades
 ```
 
