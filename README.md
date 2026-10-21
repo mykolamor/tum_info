@@ -1,4 +1,4 @@
-![Build Website](https://github.com/mcmikecreations/tum_info/actions/workflows/jekyll-gh-pages.yml/badge.svg)
+![Build Website](https://github.com/mykolamor/tum_info/actions/workflows/jekyll-gh-pages.yml/badge.svg)
 
 A bunch of useful information I've collected while studying at the Technical University of Munich.
 This includes TUM course statistics or TUM exam statistics, schools, departments and more!
@@ -22,16 +22,16 @@ You can help expand this website with new information by adding your own course 
 
 #### A single course
 
-In short, create a new issue based on this template by [going here](https://github.com/mcmikecreations/tum_info/issues/new?assignees=&labels=&template=add_course_exam_statistics.md&title=%5BCourse%5D+CIT+IN0001+2022SS) and replace the values with your own data.
+In short, create a new issue based on this template by [going here](https://github.com/mykolamor/tum_info/issues/new?assignees=&labels=&template=add_course_exam_statistics.md&title=%5BCourse%5D+CIT+IN0001+2022SS) and replace the values with your own data.
 The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
 After some time, the statistics you have submitted will appear on the website.
 For now there's a manual review step done by me, so don't worry too much about breaking the website.
-When I see that everything is ok, I put a label on the issue and [GitHub Actions](https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows)
+When I see that everything is ok, I put a label on the issue and [GitHub Actions](https://github.com/mykolamor/tum_info/tree/main/.github/workflows)
 take care of the rest by adding a new page to the website and building it.
 
 #### All your courses program
 
-If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mcmikecreations/tum_info/releases/download/1.0.1/Grades.exe), [Linux](https://github.com/mcmikecreations/tum_info/releases/download/1.0.1/Grades), [MacOS](https://github.com/mcmikecreations/tum_info/releases/download/1.0.1/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
+If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades.exe), [Linux](https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades), [MacOS](https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
 
 **For Linux users**: the app may not be executable initially when you download it. You can fix it by running `chmod +x <file_path>`. Alternatively, you can create this script `install_grades.sh`:
 
@@ -41,7 +41,7 @@ bash
 
 version="1.0.1"
 
-wget "https://github.com/mcmikecreations/tum_info/releases/download/$version/Grades"
+wget "https://github.com/mykolamor/tum_info/releases/download/$version/Grades"
 chmod +x ./Grades
 ```
 
@@ -72,14 +72,14 @@ A handy script was created to extract all grade reports for a TUMOnline student 
 
 An official unofficial TUM info API is offered with all of the tabular data from the website.
 
-- [description](https://mcmikecreations.github.io/tum_info/api/description) is a description of supported API endpoints.
-- [playground](https://mcmikecreations.github.io/tum_info/api/playground) is a page where you can execute your own JS upon the API endpoints.
-- [schools.json](https://mcmikecreations.github.io/tum_info/api/schools.json) has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.
-- [courses.json](https://mcmikecreations.github.io/tum_info/api/courses.json) has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.
+- [description](https://mykolamor.github.io/tum_info/api/description) is a description of supported API endpoints.
+- [playground](https://mykolamor.github.io/tum_info/api/playground) is a page where you can execute your own JS upon the API endpoints.
+- [schools.json](https://mykolamor.github.io/tum_info/api/schools.json) has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.
+- [courses.json](https://mykolamor.github.io/tum_info/api/courses.json) has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.
 
 ### Feature requests and bug reports
 
-There also are issue templates for such cases [back on GitHub](https://github.com/mcmikecreations/tum_info/issues/new/choose).
+There also are issue templates for such cases [back on GitHub](https://github.com/mykolamor/tum_info/issues/new/choose).
 If something is wrong or you want something to get better, here's what to do:
 1. Create a new issue and outline what is wrong and/or what you need.
 2. (Optionally) If you want to try and fix the issue, state it in a comment, fork the repo, make the changes, and submit a pull request.

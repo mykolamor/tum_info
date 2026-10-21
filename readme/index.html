@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Read Me | TUM Info</title>
-<meta name="generator" content="Jekyll v4.3.2" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Read Me" />
 <meta name="author" content="Mykola Morozov" />
 <meta property="og:locale" content="en_US" />
@@ -83,7 +83,7 @@
 </ul>
     </div>
     
-    <p><img src="https://github.com/mcmikecreations/tum_info/actions/workflows/jekyll-gh-pages.yml/badge.svg" alt="Build Website"></p>
+    <p><img src="https://github.com/mykolamor/tum_info/actions/workflows/jekyll-gh-pages.yml/badge.svg" alt="Build Website"></p>
 
 <p>A bunch of useful information I’ve collected while studying at the Technical University of Munich.
 This includes TUM course statistics or TUM exam statistics, schools, departments and more!</p>
@@ -111,17 +111,17 @@ It has the same dependencies as building the app above.</p>
 <h4 id="a-single-course">
 <a class="anchor" href="#a-single-course" aria-hidden="true"><span class="octicon octicon-link"></span></a>A single course</h4>
 
-<p>In short, create a new issue based on this template by <a href="https://github.com/mcmikecreations/tum_info/issues/new?assignees=&amp;labels=&amp;template=add_course_exam_statistics.md&amp;title=%5BCourse%5D+CIT+IN0001+2022SS">going here</a> and replace the values with your own data.
+<p>In short, create a new issue based on this template by <a href="https://github.com/mykolamor/tum_info/issues/new?assignees=&amp;labels=&amp;template=add_course_exam_statistics.md&amp;title=%5BCourse%5D+CIT+IN0001+2022SS">going here</a> and replace the values with your own data.
 The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
 After some time, the statistics you have submitted will appear on the website.
 For now there’s a manual review step done by me, so don’t worry too much about breaking the website.
-When I see that everything is ok, I put a label on the issue and <a href="https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows">GitHub Actions</a>
+When I see that everything is ok, I put a label on the issue and <a href="https://github.com/mykolamor/tum_info/tree/main/.github/workflows">GitHub Actions</a>
 take care of the rest by adding a new page to the website and building it.</p>
 
 <h4 id="all-your-courses-program">
 <a class="anchor" href="#all-your-courses-program" aria-hidden="true"><span class="octicon octicon-link"></span></a>All your courses program</h4>
 
-<p>If you’re looking for a simple way to send me your grades, you can contribute using the executable file (<a href="https://github.com/mcmikecreations/tum_info/releases/download/1.0.1/Grades.exe">Windows</a>, <a href="https://github.com/mcmikecreations/tum_info/releases/download/1.0.1/Grades">Linux</a>, <a href="https://github.com/mcmikecreations/tum_info/releases/download/1.0.1/Grades.dmg">MacOS</a>). You’ll find a video guide <a href="https://youtu.be/nHjuVhIJRaQ">here</a>. Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!</p>
+<p>If you’re looking for a simple way to send me your grades, you can contribute using the executable file (<a href="https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades.exe">Windows</a>, <a href="https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades">Linux</a>, <a href="https://github.com/mykolamor/tum_info/releases/download/1.0.1/Grades.dmg">MacOS</a>). You’ll find a video guide <a href="https://youtu.be/nHjuVhIJRaQ">here</a>. Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!</p>
 
 <p><strong>For Linux users</strong>: the app may not be executable initially when you download it. You can fix it by running <code class="language-plaintext highlighter-rouge">chmod +x &lt;file_path&gt;</code>. Alternatively, you can create this script <code class="language-plaintext highlighter-rouge">install_grades.sh</code>:</p>
 
@@ -130,7 +130,7 @@ take care of the rest by adding a new page to the website and building it.</p>
 
 version="1.0.1"
 
-wget "https://github.com/mcmikecreations/tum_info/releases/download/$version/Grades"
+wget "https://github.com/mykolamor/tum_info/releases/download/$version/Grades"
 chmod +x ./Grades
 </code></pre></div></div>
 
@@ -170,19 +170,19 @@ chmod +x ./Grades
 
 <ul>
   <li>
-<a href="https://mcmikecreations.github.io/tum_info/api/description">description</a> is a description of supported API endpoints.</li>
+<a href="https://mykolamor.github.io/tum_info/api/description">description</a> is a description of supported API endpoints.</li>
   <li>
-<a href="https://mcmikecreations.github.io/tum_info/api/playground">playground</a> is a page where you can execute your own JS upon the API endpoints.</li>
+<a href="https://mykolamor.github.io/tum_info/api/playground">playground</a> is a page where you can execute your own JS upon the API endpoints.</li>
   <li>
-<a href="https://mcmikecreations.github.io/tum_info/api/schools.json">schools.json</a> has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.</li>
+<a href="https://mykolamor.github.io/tum_info/api/schools.json">schools.json</a> has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.</li>
   <li>
-<a href="https://mcmikecreations.github.io/tum_info/api/courses.json">courses.json</a> has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.</li>
+<a href="https://mykolamor.github.io/tum_info/api/courses.json">courses.json</a> has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.</li>
 </ul>
 
 <h3 id="feature-requests-and-bug-reports">
 <a class="anchor" href="#feature-requests-and-bug-reports" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature requests and bug reports</h3>
 
-<p>There also are issue templates for such cases <a href="https://github.com/mcmikecreations/tum_info/issues/new/choose">back on GitHub</a>.
+<p>There also are issue templates for such cases <a href="https://github.com/mykolamor/tum_info/issues/new/choose">back on GitHub</a>.
 If something is wrong or you want something to get better, here’s what to do:</p>
 <ol>
   <li>Create a new issue and outline what is wrong and/or what you need.</li>
@@ -247,7 +247,7 @@ Afterwards, in the root folder run the following commands:</p>
       <div class="footer-col">
         <ul class="contact-list">
           <li class="p-name">Mykola Morozov</li>
-          <li><a class="u-email" href="mailto:mcmikecreations@gmail.com">mcmikecreations@gmail.com</a></li>
+          <li><a class="u-email" href="mailto:contact@mykolamor.com">contact@mykolamor.com</a></li>
         </ul>
       </div>
       <div class="footer-col">

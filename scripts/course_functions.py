@@ -325,7 +325,7 @@ def perform_exam(auth, achievement, logger, verbose):
         achievement['fail'] += 1
         value = 8.0
       else:
-        logger('TODO: report to mcmikecreations - unknown type {}'.format(short_name))
+        logger('TODO: report to mykolamor - unknown type {}'.format(short_name))
         continue
     else:
       value = float(o['gradeShortName'].replace(',', '.'))

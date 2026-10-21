@@ -2,23 +2,23 @@
 :root {
   --minima-brand-color: #818181;
   --minima-brand-color-light: #e7e7e7;
-  --minima-brand-color-dimmed: #656565;
-  --minima-brand-color-dark: #414141;
-  --minima-site-title-color: #414141;
+  --minima-brand-color-dimmed: rgb(39.5882352941%, 39.5882352941%, 39.5882352941%);
+  --minima-brand-color-dark: rgb(25.5882352941%, 25.5882352941%, 25.5882352941%);
+  --minima-site-title-color: rgb(25.5882352941%, 25.5882352941%, 25.5882352941%);
   --minima-heading-color: #111111;
-  --minima-text-color: #414141;
+  --minima-text-color: rgb(25.5882352941%, 25.5882352941%, 25.5882352941%);
   --minima-background-color: #fdfdfd;
   --minima-code-background-color: #f6f8fa;
   --minima-link-base-color: #1e69d8;
-  --minima-link-visited-color: #154895;
-  --minima-link-hover-color: #414141;
+  --minima-link-visited-color: rgb(8.106169297%, 28.3715925395%, 58.3644189383%);
+  --minima-link-hover-color: rgb(25.5882352941%, 25.5882352941%, 25.5882352941%);
   --minima-border-color-01: #e7e7e7;
-  --minima-border-color-02: #dadada;
-  --minima-border-color-03: #414141;
-  --minima-table-text-color: #3f3f3f;
-  --minima-table-zebra-color: #f6f6f6;
-  --minima-table-header-bg-color: #efefef;
-  --minima-table-header-border: #dfdfdf;
+  --minima-border-color-02: rgb(85.5882352941%, 85.5882352941%, 85.5882352941%);
+  --minima-border-color-03: rgb(25.5882352941%, 25.5882352941%, 25.5882352941%);
+  --minima-table-text-color: rgb(24.6666666667%, 24.6666666667%, 24.6666666667%);
+  --minima-table-zebra-color: rgb(96.5882352941%, 96.5882352941%, 96.5882352941%);
+  --minima-table-header-bg-color: rgb(93.5882352941%, 93.5882352941%, 93.5882352941%);
+  --minima-table-header-border: rgb(87.5882352941%, 87.5882352941%, 87.5882352941%);
   --minima-table-border-color: #e7e7e7;
 }
 
@@ -214,25 +214,25 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --minima-brand-color: #999999;
-    --minima-brand-color-light: #a6a6a6;
-    --minima-brand-color-dimmed: #858585;
-    --minima-brand-color-dark: #2b2b2b;
-    --minima-site-title-color: #a6a6a6;
+    --minima-brand-color-light: rgb(65%, 65%, 65%);
+    --minima-brand-color-dimmed: rgb(52%, 52%, 52%);
+    --minima-brand-color-dark: rgb(17%, 17%, 17%);
+    --minima-site-title-color: rgb(65%, 65%, 65%);
     --minima-heading-color: #bbbbbb;
-    --minima-text-color: #959595;
+    --minima-text-color: rgb(58.3333333333%, 58.3333333333%, 58.3333333333%);
     --minima-background-color: #181818;
     --minima-code-background-color: #222222;
     --minima-link-base-color: #5691cd;
     --minima-link-visited-color: #80bbff;
-    --minima-link-hover-color: #959595;
-    --minima-border-color-01: #2b2b2b;
-    --minima-border-color-02: #a6a6a6;
+    --minima-link-hover-color: rgb(58.3333333333%, 58.3333333333%, 58.3333333333%);
+    --minima-border-color-01: rgb(17%, 17%, 17%);
+    --minima-border-color-02: rgb(65%, 65%, 65%);
     --minima-border-color-03: #999999;
-    --minima-table-text-color: #959595;
-    --minima-table-zebra-color: #222222;
-    --minima-table-header-bg-color: #323232;
-    --minima-table-header-border: #3e3e3e;
-    --minima-table-border-color: #2b2b2b;
+    --minima-table-text-color: rgb(58.3333333333%, 58.3333333333%, 58.3333333333%);
+    --minima-table-zebra-color: rgb(13.4117647059%, 13.4117647059%, 13.4117647059%);
+    --minima-table-header-bg-color: rgb(19.4117647059%, 19.4117647059%, 19.4117647059%);
+    --minima-table-header-border: rgb(24.4117647059%, 24.4117647059%, 24.4117647059%);
+    --minima-table-border-color: rgb(17%, 17%, 17%);
   }
   .highlight .err {
     color: #e3d2d2;
@@ -833,22 +833,22 @@ table td {
 
 .footer-col-1,
 .footer-col-2 {
-  width: calc(50% - (30px / 2));
+  width: calc(50% - 30px / 2);
 }
 
 .footer-col-3 {
-  width: calc(100% - (30px / 2));
+  width: calc(100% - 30px / 2);
 }
 
 @media screen and (min-width: 800px) {
   .footer-col-1 {
-    width: calc(35% - (30px / 2));
+    width: calc(35% - 30px / 2);
   }
   .footer-col-2 {
-    width: calc(20% - (30px / 2));
+    width: calc(20% - 30px / 2);
   }
   .footer-col-3 {
-    width: calc(45% - (30px / 2));
+    width: calc(45% - 30px / 2);
   }
 }
 @media screen and (min-width: 600px) {
@@ -856,7 +856,7 @@ table td {
     display: flex;
   }
   .footer-col {
-    width: calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
     padding: 0 15px;
   }
   .footer-col:first-child {
@@ -1084,7 +1084,7 @@ table td {
  */
 @media screen and (min-width: 800px) {
   .one-half {
-    width: calc(50% - (30px / 2));
+    width: calc(50% - 30px / 2);
   }
 }
 div#course-plot svg {
@@ -1102,8 +1102,8 @@ div#course-plot svg > rect {
 }
 
 :root {
-  --minima-lm-text-color: #414141;
-  --minima-dm-text-color: #959595;
+  --minima-lm-text-color: rgb(25.5882352941%, 25.5882352941%, 25.5882352941%);
+  --minima-dm-text-color: rgb(58.3333333333%, 58.3333333333%, 58.3333333333%);
   --minima-lm-background-color: #fdfdfd;
   --minima-dm-background-color: #181818;
 }

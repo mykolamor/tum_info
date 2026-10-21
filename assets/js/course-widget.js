@@ -52,7 +52,7 @@
     }
 
     try {
-        const courseApiModule = await import('https://mcmikecreations.github.io/tum_info/assets/js/course-api.mjs');
+        const courseApiModule = await import('https://mykolamor.github.io/tum_info/assets/js/course-api.mjs');
         await loadScript(`${courseApiModule.courseBaseUrl}/assets/js/d3@7.js`);
         await loadScript(`${courseApiModule.courseBaseUrl}/assets/js/plot@0.6.js`);
     

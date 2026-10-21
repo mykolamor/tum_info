@@ -45,7 +45,7 @@ def process_achievement(course):
     header = '{} (4SWS FA, {})'.format(header, preprocess_semester(table_date))
     header_match = re.search(header_regex, header)
     if header_match == None:
-      logger('{} parsed incompletely. Please ask mcmikecreations to fix it.'.format(header))
+      logger('{} parsed incompletely. Please ask mykolamor to fix it.'.format(header))
   
   header_name = str(header_match.group(1)).replace('&', 'and').replace('"', '\'')
   header_sem = header_match.group(4) if header_match.group(3) == 'W' else header_match.group(5)
@@ -127,7 +127,7 @@ def process_grades(achievement, grade_list):
       try:
         grade_value = float(grade_value_text.replace(',', '.'))
       except:
-        logger('Failed to parse {}. Contact mcmikecreations.'.format(grade_value_text))
+        logger('Failed to parse {}. Contact mykolamor.'.format(grade_value_text))
         achievement['grades'] = None
         return achievement
     

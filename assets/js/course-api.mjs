@@ -1,4 +1,4 @@
-const courseBaseUrl = 'https://mcmikecreations.github.io/tum_info';
+const courseBaseUrl = 'https://mykolamor.github.io/tum_info';
 const courseApiUrl = `${courseBaseUrl}/api/courses.json`;
 
 const courseLangMappings = {

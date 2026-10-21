@@ -10,7 +10,7 @@ import course_glob_resources
 
 try:
   from ctypes import windll  # Only exists on Windows.
-  myappid = 'mcmikecreations.tum_info.grades.1'
+  myappid = 'mykolamor.tum_info.grades.1'
   windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 except ImportError:
   pass
@@ -102,7 +102,7 @@ class MainWindow(QMainWindow):
     log_label.setReadOnly(True)
     self.log_label = log_label
     
-    source_label = QLabel('<a href="https://github.com/mcmikecreations/tum_info/tree/main/scripts">The app is open-source and doesn\'t steal data! Click here to browse code.</a>')
+    source_label = QLabel('<a href="https://github.com/mykolamor/tum_info/tree/main/scripts">The app is open-source and doesn\'t steal data! Click here to browse code.</a>')
     source_label.setOpenExternalLinks(True)
     self.source_label = source_label
 
@@ -172,8 +172,8 @@ class MainWindow(QMainWindow):
       logger('grades.json was saved to {}.'.format(drag_button.fileName))
       logger('Drag grades button into your favorite messanger.')
       logger('Or find the created grades.json file yourself.')
-      logger('Email: mcmikecreations@gmail.com')
-      logger('Telegram: @mcmikecreations')
+      logger('Email: contact@mykolamor.com')
+      logger('Telegram: @mykolamor')
       logger('Facebook: mykolamor')
       logger('Matrix: @mykolamor:matrix.org')
       logger('Mastodon: @mykolamor@mastodon.social')

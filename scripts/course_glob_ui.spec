@@ -53,7 +53,7 @@ if sys.platform.startswith('darwin'):
         coll,
         name='Grades.app',
         icon='../assets/icons/grade.icns',
-        bundle_identifier='mcmikecreations.tum_info.grades',
+        bundle_identifier='mykolamor.tum_info.grades',
     )
 elif sys.platform.startswith('win32') or sys.platform.startswith('cygwin') or sys.platform.startswith('linux'):
     a = Analysis(

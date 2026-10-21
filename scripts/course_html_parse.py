@@ -102,7 +102,7 @@ def process_grades(achievement, grade_list):
       try:
         grade_value = float(grade_value_text.replace(',', '.'))
       except:
-        logger('Failed to parse {}. Contact mcmikecreations.'.format(grade_value_text))
+        logger('Failed to parse {}. Contact mykolamor.'.format(grade_value_text))
         achievement['grades'] = None
         return achievement
     
