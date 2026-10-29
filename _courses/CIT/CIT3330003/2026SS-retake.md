@@ -4,7 +4,7 @@ layout: course
 school: "CIT"
 code: "CIT3330003"
 semester: "2026SS" # refers to the year of the semester start
-exam_type: "endterm"
+exam_type: "retake"
 name: "Cryptography"
 date: "2026-10-05 12:00:00 +0100"
 
@@ -13,7 +13,7 @@ hours: 4.0 # semester hours
 mode: "written"
 lang: "en"
 
-title: "Cryptography 2026SS Endterm"
+title: "Cryptography 2026SS Retake"
 grades:
   - { grade: 1.0, people: 1 }
   - { grade: 1.7, people: 1 }
