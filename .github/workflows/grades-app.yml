@@ -34,6 +34,21 @@ jobs:
       - name: 📦 install dependencies
         run: pip install requests PySide6 pyinstaller
 
+      - name: 🏷️ set windows version
+        if: runner.os == 'Windows' && startsWith(github.ref, 'refs/tags/')
+        shell: bash
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          if [[ ! "$TAG" =~ ^[0-9]+(\.[0-9]+){0,3}$ ]]; then
+            echo "Tag $TAG is not a numeric version like 1.1.0"; exit 1
+          fi
+          IFS=. read -r major minor patch build <<< "$TAG"
+          numbers="${major}, ${minor:-0}, ${patch:-0}, ${build:-0}"
+          dotted="${major}.${minor:-0}.${patch:-0}.${build:-0}"
+          sed -i -E "s/(filevers|prodvers)=\([0-9, ]+\)/\1=(${numbers})/; s/'(FileVersion|ProductVersion)', '[0-9.]+'/'\1', '${dotted}'/" scripts/grades_version_info.txt
+          grep -E "filevers|prodvers|FileVersion|ProductVersion" scripts/grades_version_info.txt
+
       - name: 🔨 build app
         run: pyinstaller --noconfirm scripts/course_glob_ui.spec
 

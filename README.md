@@ -35,6 +35,8 @@ If you're looking for a simple way to send me your grades, you can contribute us
 
 **For Windows users**: Windows Defender may still warn on the unsigned PyInstaller build. If the download is blocked, allow/restore that official release file, or run `python scripts/course_glob_ui.py` from a clone instead (see developer steps below).
 
+**For MacOS users**: the app is unsigned, so allow it once under System Settings → Privacy & Security → "Open Anyway".
+
 **For Linux users**: the app may not be executable initially when you download it. You can fix it by running `chmod +x <file_path>`. Alternatively, you can create this script `install_grades.sh`:
 
 ```

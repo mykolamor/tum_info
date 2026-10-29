@@ -3,10 +3,11 @@
 # PE version info for Grades.exe (reduces anonymous-binary AV heuristics).
 # For FixedFileInfo fields see:
 # https://learn.microsoft.com/en-us/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo
+# The version numbers below are placeholders, the release workflow fills them in from the tag.
 VSVersionInfo(
   ffi=FixedFileInfo(
-    filevers=(1, 0, 0, 0),
-    prodvers=(1, 0, 0, 0),
+    filevers=(0, 0, 0, 0),
+    prodvers=(0, 0, 0, 0),
     mask=0x3f,
     flags=0x0,
     OS=0x40004,
@@ -22,12 +23,12 @@ VSVersionInfo(
           [
             StringStruct('CompanyName', 'mykolamor'),
             StringStruct('FileDescription', 'TUMOnline grade download helper for tum_info'),
-            StringStruct('FileVersion', '1.0.0.0'),
+            StringStruct('FileVersion', '0.0.0.0'),
             StringStruct('InternalName', 'Grades'),
             StringStruct('LegalCopyright', 'Copyright (c) mykolamor'),
             StringStruct('OriginalFilename', 'Grades.exe'),
             StringStruct('ProductName', 'tum_info Grades'),
-            StringStruct('ProductVersion', '1.0.0.0'),
+            StringStruct('ProductVersion', '0.0.0.0'),
           ]
         )
       ]
