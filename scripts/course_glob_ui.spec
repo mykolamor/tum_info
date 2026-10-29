@@ -55,7 +55,50 @@ if sys.platform.startswith('darwin'):
         icon='../assets/icons/grade.icns',
         bundle_identifier='mykolamor.tum_info.grades',
     )
-elif sys.platform.startswith('win32') or sys.platform.startswith('cygwin') or sys.platform.startswith('linux'):
+elif sys.platform.startswith('win32') or sys.platform.startswith('cygwin'):
+    # UPX packing is a common Windows Defender false-positive trigger for
+    # unsigned PyInstaller one-file builds; keep Windows unpacked.
+    a = Analysis(
+        ['course_glob_ui.py'],
+        pathex=[],
+        binaries=[],
+        datas=[('../assets/icons/grade.ico', 'assets/icons/')],
+        hiddenimports=[],
+        hookspath=[],
+        hooksconfig={},
+        runtime_hooks=[],
+        excludes=[],
+        win_no_prefer_redirects=False,
+        win_private_assemblies=False,
+        cipher=block_cipher,
+        noarchive=False,
+    )
+    pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+    exe = EXE(
+        pyz,
+        a.scripts,
+        a.binaries,
+        a.zipfiles,
+        a.datas,
+        [],
+        name='Grades',
+        debug=False,
+        bootloader_ignore_signals=False,
+        strip=False,
+        upx=False,
+        upx_exclude=[],
+        runtime_tmpdir=None,
+        console=False,
+        icon='../assets/icons/grade.ico',
+        version='grades_version_info.txt',
+        disable_windowed_traceback=False,
+        argv_emulation=False,
+        target_arch=None,
+        codesign_identity=None,
+        entitlements_file=None,
+    )
+elif sys.platform.startswith('linux'):
     a = Analysis(
         ['course_glob_ui.py'],
         pathex=[],

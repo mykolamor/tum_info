@@ -33,6 +33,8 @@ take care of the rest by adding a new page to the website and building it.
 
 If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mykolamor/tum_info/releases/latest/download/Grades.exe), [Linux](https://github.com/mykolamor/tum_info/releases/latest/download/Grades), [MacOS](https://github.com/mykolamor/tum_info/releases/latest/download/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
 
+**For Windows users**: Windows Defender may still warn on the unsigned PyInstaller build. If the download is blocked, allow/restore that official release file, or run `python scripts/course_glob_ui.py` from a clone instead (see developer steps below).
+
 **For Linux users**: the app may not be executable initially when you download it. You can fix it by running `chmod +x <file_path>`. Alternatively, you can create this script `install_grades.sh`:
 
 ```
