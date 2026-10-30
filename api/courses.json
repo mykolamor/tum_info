@@ -51317,6 +51317,38 @@
     },
     {
         "school": "SZ",
+        "code": "SZ1808",
+        "semester": "2022WS",
+        "examType": "endterm",
+        "name": "Korean A1.1",
+        "date": "2023-02-08 11:00:00 +0000",
+        "ects": 3.0,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "ko",
+        "peopleTotal": 17,
+        "peopleFailed": 0,
+        "attemptsTotal": 17,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.111764705882353,
+        "averagePassed": 1.111764705882353,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 14
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "SZ",
         "code": "SZ1219",
         "semester": "2022WS",
         "examType": "endterm",
@@ -54528,6 +54560,50 @@
         ]
     },
     {
+        "school": "SZ",
+        "code": "SZ1809",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Korean A1.2",
+        "date": "2023-07-18 11:00:00 +0000",
+        "ects": 3.0,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "ko",
+        "peopleTotal": 23,
+        "peopleFailed": 0,
+        "attemptsTotal": 22,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.4681818181818183,
+        "averagePassed": 1.4681818181818183,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 1
+            }
+        ]
+    },
+    {
         "school": "CIT",
         "code": "IN2073",
         "semester": "2023SS",
@@ -56137,9 +56213,73 @@
     },
     {
         "school": "CIT",
+        "code": "MA0901",
+        "semester": "2023SS",
+        "examType": "retake",
+        "name": "Linear Algebra for Informatics",
+        "date": "2023-10-02 11:00:00 +0000",
+        "ects": 8.0,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 746,
+        "peopleFailed": 378,
+        "attemptsTotal": 566,
+        "attemptsFailedPercent": 0.6678445229681979,
+        "averageTotal": 4.258833922261484,
+        "averagePassed": 3.768617021276596,
+        "grades": [
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 20
+            },
+            {
+                "grade": 3.7,
+                "people": 62
+            },
+            {
+                "grade": 4.0,
+                "people": 99
+            },
+            {
+                "grade": 4.3,
+                "people": 215
+            },
+            {
+                "grade": 4.7,
+                "people": 125
+            },
+            {
+                "grade": 5.0,
+                "people": 38
+            },
+            {
+                "grade": 6.0,
+                "people": 180
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN0003",
         "semester": "2023SS",
-        "examType": "endterm",
+        "examType": "retake",
         "name": "Functional Programming and Verification",
         "date": "2023-10-09 23:00:00 +0000",
         "ects": 5,
@@ -56208,6 +56348,82 @@
             {
                 "grade": 6.0,
                 "people": 188
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0007",
+        "semester": "2023SS",
+        "examType": "retake",
+        "name": "Fundamentals of Algorithms and Data Structures",
+        "date": "2023-10-11 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 5.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 517,
+        "peopleFailed": 149,
+        "attemptsTotal": 380,
+        "attemptsFailedPercent": 0.39210526315789473,
+        "averageTotal": 3.826578947368421,
+        "averagePassed": 3.177056277056277,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 7
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 9
+            },
+            {
+                "grade": 2.3,
+                "people": 17
+            },
+            {
+                "grade": 2.7,
+                "people": 22
+            },
+            {
+                "grade": 3.0,
+                "people": 37
+            },
+            {
+                "grade": 3.3,
+                "people": 32
+            },
+            {
+                "grade": 3.7,
+                "people": 41
+            },
+            {
+                "grade": 4.0,
+                "people": 57
+            },
+            {
+                "grade": 4.3,
+                "people": 23
+            },
+            {
+                "grade": 4.7,
+                "people": 29
+            },
+            {
+                "grade": 5.0,
+                "people": 97
+            },
+            {
+                "grade": 6.0,
+                "people": 137
             }
         ]
     },
@@ -57533,6 +57749,74 @@
     },
     {
         "school": "CIT",
+        "code": "IN0005",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Basic Practical Course: Computer Architecture",
+        "date": "2024-03-11 11:00:00 +0000",
+        "ects": 5.0,
+        "hours": 3.0,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 242,
+        "peopleFailed": 5,
+        "attemptsTotal": 197,
+        "attemptsFailedPercent": 0.025380710659898477,
+        "averageTotal": 2.218274111675127,
+        "averagePassed": 2.1458333333333335,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 16
+            },
+            {
+                "grade": 1.3,
+                "people": 20
+            },
+            {
+                "grade": 1.7,
+                "people": 35
+            },
+            {
+                "grade": 2.0,
+                "people": 42
+            },
+            {
+                "grade": 2.3,
+                "people": 22
+            },
+            {
+                "grade": 2.7,
+                "people": 23
+            },
+            {
+                "grade": 3.0,
+                "people": 13
+            },
+            {
+                "grade": 3.3,
+                "people": 8
+            },
+            {
+                "grade": 3.7,
+                "people": 12
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 5
+            },
+            {
+                "grade": 6.0,
+                "people": 45
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN8005",
         "semester": "2023WS",
         "examType": "retake",
@@ -57993,6 +58277,62 @@
     },
     {
         "school": "CIT",
+        "code": "IN4440",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Seminar - Scientific Methods in Information Systems",
+        "date": "2024-07-21 11:00:00 +0000",
+        "ects": 5.0,
+        "hours": 2.0,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 35,
+        "peopleFailed": 0,
+        "attemptsTotal": 28,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.7107142857142856,
+        "averagePassed": 1.7107142857142856,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 7
+            },
+            {
+                "grade": 1.3,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 7
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "EI10001",
         "semester": "2024SS",
         "examType": "endterm",
@@ -58068,6 +58408,78 @@
             {
                 "grade": 7.0,
                 "people": 1
+            }
+        ]
+    },
+    {
+        "school": "MED",
+        "code": "ME25666",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Introduction to Bioengineering",
+        "date": "2024-07-22 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 83,
+        "peopleFailed": 11,
+        "attemptsTotal": 68,
+        "attemptsFailedPercent": 0.16176470588235295,
+        "averageTotal": 2.6602941176470587,
+        "averagePassed": 2.2578947368421054,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 10
+            },
+            {
+                "grade": 1.3,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 5
+            },
+            {
+                "grade": 2.7,
+                "people": 9
+            },
+            {
+                "grade": 3.0,
+                "people": 9
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 7
+            },
+            {
+                "grade": 6.0,
+                "people": 15
             }
         ]
     },
@@ -58212,6 +58624,38 @@
             {
                 "grade": 6.0,
                 "people": 102
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2348",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Lecture Series: What is digitalization?",
+        "date": "2024-07-25 11:00:00 +0000",
+        "ects": 2.0,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 198,
+        "peopleFailed": 0,
+        "attemptsTotal": 148,
+        "attemptsFailedPercent": 0.1554054054054054,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 6.0,
+                "people": 50
+            },
+            {
+                "grade": 7.0,
+                "people": 125
+            },
+            {
+                "grade": 8.0,
+                "people": 23
             }
         ]
     },
@@ -58993,6 +59437,82 @@
     },
     {
         "school": "CIT",
+        "code": "IN2081",
+        "semester": "2024WS",
+        "examType": "endterm",
+        "name": "Patterns in Software Engineering",
+        "date": "2025-02-13 11:00:00 +0000",
+        "ects": 5.0,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 641,
+        "peopleFailed": 139,
+        "attemptsTotal": 532,
+        "attemptsFailedPercent": 0.26127819548872183,
+        "averageTotal": 2.731015037593985,
+        "averagePassed": 1.9951653944020356,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 117
+            },
+            {
+                "grade": 1.3,
+                "people": 49
+            },
+            {
+                "grade": 1.7,
+                "people": 37
+            },
+            {
+                "grade": 2.0,
+                "people": 31
+            },
+            {
+                "grade": 2.3,
+                "people": 44
+            },
+            {
+                "grade": 2.7,
+                "people": 24
+            },
+            {
+                "grade": 3.0,
+                "people": 19
+            },
+            {
+                "grade": 3.3,
+                "people": 40
+            },
+            {
+                "grade": 3.7,
+                "people": 15
+            },
+            {
+                "grade": 4.0,
+                "people": 17
+            },
+            {
+                "grade": 4.3,
+                "people": 28
+            },
+            {
+                "grade": 4.7,
+                "people": 22
+            },
+            {
+                "grade": 5.0,
+                "people": 89
+            },
+            {
+                "grade": 6.0,
+                "people": 109
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2326",
         "semester": "2024WS",
         "examType": "endterm",
@@ -59157,6 +59677,166 @@
     },
     {
         "school": "CIT",
+        "code": "IN2161",
+        "semester": "2024WS",
+        "examType": "endterm",
+        "name": "Networks for Monetary Transactions",
+        "date": "2025-02-19 11:00:00 +0000",
+        "ects": 3.0,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 210,
+        "peopleFailed": 29,
+        "attemptsTotal": 160,
+        "attemptsFailedPercent": 0.18125,
+        "averageTotal": 3.1975,
+        "averagePassed": 2.8633587786259542,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 7
+            },
+            {
+                "grade": 2.0,
+                "people": 11
+            },
+            {
+                "grade": 2.3,
+                "people": 22
+            },
+            {
+                "grade": 2.7,
+                "people": 21
+            },
+            {
+                "grade": 3.0,
+                "people": 21
+            },
+            {
+                "grade": 3.3,
+                "people": 20
+            },
+            {
+                "grade": 3.7,
+                "people": 10
+            },
+            {
+                "grade": 4.0,
+                "people": 16
+            },
+            {
+                "grade": 4.3,
+                "people": 10
+            },
+            {
+                "grade": 4.7,
+                "people": 5
+            },
+            {
+                "grade": 5.0,
+                "people": 14
+            },
+            {
+                "grade": 6.0,
+                "people": 50
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0019",
+        "semester": "2024WS",
+        "examType": "endterm",
+        "name": "Numerical Programming",
+        "date": "2025-02-25 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 5.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 633,
+        "peopleFailed": 63,
+        "attemptsTotal": 554,
+        "attemptsFailedPercent": 0.11371841155234658,
+        "averageTotal": 2.893682310469314,
+        "averagePassed": 2.6708757637474543,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 39
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.4,
+                "people": 25
+            },
+            {
+                "grade": 1.7,
+                "people": 31
+            },
+            {
+                "grade": 2.0,
+                "people": 34
+            },
+            {
+                "grade": 2.3,
+                "people": 12
+            },
+            {
+                "grade": 2.4,
+                "people": 57
+            },
+            {
+                "grade": 2.7,
+                "people": 78
+            },
+            {
+                "grade": 3.0,
+                "people": 54
+            },
+            {
+                "grade": 3.3,
+                "people": 40
+            },
+            {
+                "grade": 3.4,
+                "people": 29
+            },
+            {
+                "grade": 3.7,
+                "people": 54
+            },
+            {
+                "grade": 4.0,
+                "people": 37
+            },
+            {
+                "grade": 4.3,
+                "people": 26
+            },
+            {
+                "grade": 4.7,
+                "people": 17
+            },
+            {
+                "grade": 5.0,
+                "people": 20
+            },
+            {
+                "grade": 6.0,
+                "people": 79
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "CIT3230000",
         "semester": "2024WS",
         "examType": "endterm",
@@ -59312,6 +59992,666 @@
             {
                 "grade": 6.0,
                 "people": 272
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN4308",
+        "semester": "2024WS",
+        "examType": "endterm",
+        "name": "Practical Course: Open Source Lab",
+        "date": "2025-03-07 11:00:00 +0000",
+        "ects": 10.0,
+        "hours": 6.0,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 11,
+        "peopleFailed": 0,
+        "attemptsTotal": 11,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.1727272727272726,
+        "averagePassed": 1.1727272727272726,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 8
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2021",
+        "semester": "2025WS",
+        "examType": "endterm",
+        "name": "Computer Aided Medical Procedures",
+        "date": "2026-02-04 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 107,
+        "peopleFailed": 14,
+        "attemptsTotal": 75,
+        "attemptsFailedPercent": 0.18666666666666668,
+        "averageTotal": 2.788,
+        "averagePassed": 2.314754098360656,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 7
+            },
+            {
+                "grade": 1.3,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 9
+            },
+            {
+                "grade": 2.0,
+                "people": 6
+            },
+            {
+                "grade": 2.3,
+                "people": 7
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 6
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 11
+            },
+            {
+                "grade": 6.0,
+                "people": 32
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2346",
+        "semester": "2025WS",
+        "examType": "endterm",
+        "name": "Introduction to Deep Learning",
+        "date": "2026-02-09 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1135,
+        "peopleFailed": 270,
+        "attemptsTotal": 863,
+        "attemptsFailedPercent": 0.3128621089223638,
+        "averageTotal": 3.5013904982618773,
+        "averagePassed": 2.8190556492411467,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 13
+            },
+            {
+                "grade": 1.3,
+                "people": 14
+            },
+            {
+                "grade": 1.7,
+                "people": 23
+            },
+            {
+                "grade": 2.0,
+                "people": 58
+            },
+            {
+                "grade": 2.3,
+                "people": 92
+            },
+            {
+                "grade": 2.7,
+                "people": 87
+            },
+            {
+                "grade": 3.0,
+                "people": 96
+            },
+            {
+                "grade": 3.3,
+                "people": 93
+            },
+            {
+                "grade": 3.7,
+                "people": 80
+            },
+            {
+                "grade": 4.0,
+                "people": 37
+            },
+            {
+                "grade": 5.0,
+                "people": 270
+            },
+            {
+                "grade": 6.0,
+                "people": 272
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "EI75671",
+        "semester": "2025WS",
+        "examType": "endterm",
+        "name": "Lecture Series System Security",
+        "date": "2026-02-13 11:00:00 +0000",
+        "ects": 3.0,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 117,
+        "peopleFailed": 3,
+        "attemptsTotal": 89,
+        "attemptsFailedPercent": 0.033707865168539325,
+        "averageTotal": 2.0775280898876405,
+        "averagePassed": 1.9790697674418605,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 15
+            },
+            {
+                "grade": 1.3,
+                "people": 14
+            },
+            {
+                "grade": 1.7,
+                "people": 16
+            },
+            {
+                "grade": 2.0,
+                "people": 13
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 28
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2293",
+        "semester": "2025WS",
+        "examType": "endterm",
+        "name": "Medical Augmented Reality",
+        "date": "2026-02-24 11:00:00 +0000",
+        "ects": 5.0,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 33,
+        "peopleFailed": 1,
+        "attemptsTotal": 16,
+        "attemptsFailedPercent": 0.0625,
+        "averageTotal": 2.5,
+        "averagePassed": 2.3333333333333335,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 17
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2229",
+        "semester": "2025WS",
+        "examType": "endterm",
+        "name": "Computational Social Choice",
+        "date": "2026-02-26 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 5.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 186,
+        "peopleFailed": 54,
+        "attemptsTotal": 112,
+        "attemptsFailedPercent": 0.48214285714285715,
+        "averageTotal": 3.74375,
+        "averagePassed": 2.963793103448276,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.4,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 10
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.4,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 14
+            },
+            {
+                "grade": 4.0,
+                "people": 7
+            },
+            {
+                "grade": 4.3,
+                "people": 22
+            },
+            {
+                "grade": 4.7,
+                "people": 24
+            },
+            {
+                "grade": 5.0,
+                "people": 8
+            },
+            {
+                "grade": 6.0,
+                "people": 74
+            }
+        ]
+    },
+    {
+        "school": "SOT",
+        "code": "SOT86063",
+        "semester": "2026SS",
+        "examType": "endterm",
+        "name": "AI Regulation &amp; Law (6 ECTS)",
+        "date": "2026-07-13 11:00:00 +0000",
+        "ects": 6.0,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 45,
+        "peopleFailed": 0,
+        "attemptsTotal": 42,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.4,
+        "averagePassed": 1.4,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 17
+            },
+            {
+                "grade": 1.3,
+                "people": 13
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 6.0,
+                "people": 3
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN4860",
+        "semester": "2026SS",
+        "examType": "endterm",
+        "name": "Advanced Seminar Course Deep Learning for Medical Applications",
+        "date": "2026-07-16 11:00:00 +0000",
+        "ects": 5.0,
+        "hours": 2.0,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 16,
+        "peopleFailed": 0,
+        "attemptsTotal": 16,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.3375,
+        "averagePassed": 1.3375,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 11
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN4314",
+        "semester": "2026SS",
+        "examType": "endterm",
+        "name": "Applied Deep Learning in Medicine",
+        "date": "2026-07-22 11:00:00 +0000",
+        "ects": 10.0,
+        "hours": 6.0,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 26,
+        "peopleFailed": 1,
+        "attemptsTotal": 26,
+        "attemptsFailedPercent": 0.038461538461538464,
+        "averageTotal": 1.6153846153846154,
+        "averagePassed": 1.48,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.3,
+                "people": 12
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "CIT4230003",
+        "semester": "2026SS",
+        "examType": "retake",
+        "name": "Advanced Machine Learning: Deep Generative Models",
+        "date": "2026-09-29 11:00:00 +0000",
+        "ects": 3.0,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 83,
+        "peopleFailed": 21,
+        "attemptsTotal": 40,
+        "attemptsFailedPercent": 0.525,
+        "averageTotal": 3.9625,
+        "averagePassed": 3.1052631578947367,
+        "grades": [
+            {
+                "grade": 1.1,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.4,
+                "people": 2
+            },
+            {
+                "grade": 2.8,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.4,
+                "people": 4
+            },
+            {
+                "grade": 3.5,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 3.8,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 12
+            },
+            {
+                "grade": 6.0,
+                "people": 43
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "CIT3330003",
+        "semester": "2026SS",
+        "examType": "retake",
+        "name": "Cryptography",
+        "date": "2026-10-05 11:00:00 +0000",
+        "ects": 5.0,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 76,
+        "peopleFailed": 26,
+        "attemptsTotal": 44,
+        "attemptsFailedPercent": 0.5909090909090909,
+        "averageTotal": 3.965909090909091,
+        "averagePassed": 2.911111111111111,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 5
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 10
+            },
+            {
+                "grade": 5.0,
+                "people": 9
+            },
+            {
+                "grade": 6.0,
+                "people": 32
             }
         ]
     }
